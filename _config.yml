@@ -1,0 +1,12 @@
+name: jsha/README
+markdown: redcarpet
+highlighter: pygments
+about:
+baseurl: '/README'
+urls:
+  - text: "@j4cob"
+    url: https://twitter.com/j4cob
+
+safe: true
+timezone: America/Los_Angeles
+encoding: utf-8
