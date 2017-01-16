@@ -25,7 +25,7 @@ Faced with a password manager that is refusing to fill in a password, you may, i
 
 Some outdated security advice recommends against using your browser's built-in saved passwords list. This advice is typically intended to defend against someone with in-person access to an unlocked computer. These days, phishing is a much more common attack than in-person access, and screen lock passwords are much more ubiquitous, so the tradeoff is different.
 
-Since a browser's saved password list is effectively a built-in password manager, it's a good defense against phishing. The main thing browsers lack in the password management department is an easy way to generate random passwords, though though [Chrome is working on it](https://www.chromium.org/developers/design-documents/password-generation). Browsers also tend to lack some of the fancier features of dedicated password managers, like auditing your passwords for quality, or automatically changing them. That said, they have the important advantage of already being installed.
+Since a browser's saved password list is effectively a built-in password manager, it's a good defense against phishing. The main thing browsers lack in the password management department is an easy way to generate random passwords, though [Chrome is working on it](https://www.chromium.org/developers/design-documents/password-generation). Browsers also tend to lack some of the fancier features of dedicated password managers, like auditing your passwords for quality, or automatically changing them. That said, they have the important advantage of already being installed.
 
 ## Vulnerabilities in password manager extensions
 
