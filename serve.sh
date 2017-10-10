@@ -1,2 +1,2 @@
 #!/bin/bash
-jekyll serve -P 5000 --incremental
+jekyll serve -P 5000
