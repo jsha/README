@@ -5,6 +5,12 @@ author: jsha
 layout: post
 ---
 
+Update 2017-01-04: Twitter has [announced an update][1] to HTTP/2 support in the API
+so the Accept-Encoding header is honored, and the workaround below is no longer
+required. However, you may want to do it anyhow in order to reduce your
+bandwidth needs when talking to the Twitter API. By default, Twitter will not
+compress responses.
+
 [HTTP/2](https://http2.github.io/) is a major revision of the HTTP protocol,
 most notable for multiplexing requests across a single TCP connection. Twitter
 was an early supporter of HTTP/2 and its predecessor SPDY. Now that HTTP/2
@@ -23,7 +29,10 @@ gunzip:
 const http2 = require('http2');
 const zlib = require('zlib');
 const client = http2.connect('https://api.twitter.com');
-const req = client.request({ ':path': '/robots.txt' });
+const req = client.request({
+  'accept-encoding': 'gzip,deflate',
+  ':path': '/robots.txt'
+});
 
 let data = []
 let expander = input => input;
@@ -45,14 +54,6 @@ req.on('end', (r) => {
 req.end();
 ```
 
-You'll need to pass the --expose_http2 flag for the above code snippet to work.
-You can also use the [`node-http2`](https://github.com/molnarg/node-http2)
-package, but note that it is deprecated.
-
-```
-node --expose_http2 h2.js
-```
-
 Note that it's easy to mess up the encoding by converting the data chunks to
 strings too early using the wrong encoding. When you do that, the binary data
 can get interpreted as UTF-8 and mangled.
@@ -67,10 +68,12 @@ package.json:
     "oauth": "git://github.com/jsha/node-oauth#http2",
 ```
 
-The upstream maintainer of node-oauath does not appear to be taking pull
+The upstream maintainer of node-oauth does not appear to be taking pull
 requests, so this probably won't be upstreamed. And I don't intend to actively
 maintain this branch other than for my own use, so consider this more along
 the lines of example code than a package ready to be used.
 
 The issue with Twitter and Content-Encoding: deflate has also been noticed and
 [fixed by Go](https://github.com/golang/go/issues/18779).
+
+[1]: https://twittercommunity.com/t/improving-the-twitter-api-support-for-http-2/98728
