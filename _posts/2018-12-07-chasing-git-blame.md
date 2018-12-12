@@ -1,5 +1,5 @@
 ---
-title: Chasing Git Blame
+title: Using Git Blame on Refactored or Reformatted Code
 date: 2018-12-07T18:01:31+00:00
 author: jsha
 layout: post
