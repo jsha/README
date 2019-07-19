@@ -5,6 +5,8 @@ author: jsha
 layout: post
 ---
 
+Update: `git log -G some_pattern` is often a much easier way to do this!
+
 If you want to know when or why a particular line of code was written, “git blame” is a powerful tool. However, very often you’ll find that “git blame” leads you to a routine refactor or reformatting of code, rather than the meaningful change you were looking for. Fortunately, there’s a fairly quick way to chase down the true origin of a line of code, using git blame’s revision argument and the ~ (parent) operator.
 
 First, you run the normal “git blame” command. These examples are from the Signal Desktop repo.
