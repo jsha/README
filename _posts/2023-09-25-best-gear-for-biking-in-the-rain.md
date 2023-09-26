@@ -8,13 +8,13 @@ layout: post
 
 I live car-free in the Pacific Northwest, and this year all my friends are asking “what gear do I need so I can keep biking all winter long?” That’s so awesome! Biking is great fun and it can be fun in the winter too, with the right gear. The short answer is “shop at Showers Pass. You can’t go wrong.” They’re a Portland-based company and all they do is make rain gear for biking. They’re good at it. Here’s the long answer, in order by what you should invest in first:
 
-- [Fenders
-](https://ridepdw.com/collections/fenders/products/poncho-fenders) - [Front](https://lightandmotion.com/collections/road-biking/products/vis-pro-1000-blacktop) and [back](https://cygolite.com/product/hotshot-pro-150-usb/) lights
-- [Gloves
-](https://showerspass.com/products/mens-crosspoint-waterproof-softshell-glove-ts) - Hat or [balaclava
-](https://www.amazon.com/gp/product/B007UDF5AK/) - [Pants
-](https://showerspass.com/products/mens-transit-pant) - [Jacket
-](https://showerspass.com/products/mens-elite-2-1-jacket) - [Shoe covers](https://showerspass.com/products/club-shoe-covers)
+- [Fenders](https://ridepdw.com/collections/fenders/products/poncho-fenders)
+- [Front](https://lightandmotion.com/collections/road-biking/products/vis-pro-1000-blacktop) and [back](https://cygolite.com/product/hotshot-pro-150-usb/) lights
+- [Gloves](https://showerspass.com/products/mens-crosspoint-waterproof-softshell-glove-ts)
+- Hat or [balaclava](https://www.amazon.com/gp/product/B007UDF5AK/)
+- [Pants ](https://showerspass.com/products/mens-transit-pant)
+- [Jacket](https://showerspass.com/products/mens-elite-2-1-jacket)
+- [Shoe covers](https://showerspass.com/products/club-shoe-covers)
 
 First up, fenders. Always fenders. Cheap [plastic ones will do fine](https://ridepdw.com/collections/fenders/products/poncho-fenders). [Metal ones](https://ridepdw.com/collections/fenders) will last longer and be less fussy, for twice the price. Make sure to get front and back full coverage ones. It’s worth buying from your local bike shop and paying for installation them because it can be fiddly.
 
